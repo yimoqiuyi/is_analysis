@@ -18,7 +18,7 @@
 无
 
 ## 3. 界面设计
-- 界面参照:  https://github.com/yimoqiuyi/is_analysis/test6/ui/logout.png
+- 界面参照:  https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/logout.png
 - API接口调用
     - 接口1：[logout](../mapper/logout.md)
 

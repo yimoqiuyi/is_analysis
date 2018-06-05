@@ -19,9 +19,9 @@
 ## 3. 界面设计
 - 界面参照:
  界面
-          https://github.com/yimoqiuyi/is_analysis/test6/ui/top.png
+          https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/top.png
   数据
-          https://github.com/yimoqiuyi/is_analysis/test6/ui/userInfo.png
+         https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/userInfo.png
 - API接口调用
     - 接口1：[getUserInfo](../mapper/getUserInfo.md)
 

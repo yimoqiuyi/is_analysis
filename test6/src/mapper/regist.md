@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033-->
 <!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
 
-# 接口：login  [返回](../../README.md)
+# 接口：注册  [返回](../../README.md)
 用例： [注册](../cases/regist.md)
 
 - 功能：

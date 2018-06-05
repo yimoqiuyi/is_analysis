@@ -19,7 +19,7 @@
 
     
 ## 3. 界面设计
-- 界面参照: https://github.com/yimoqiuyi/is_analysis/test6/ui/Evaluationscore.png
+- 界面参照: https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/Evaluationscore.png
 
 - API接口调用
 

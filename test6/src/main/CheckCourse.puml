@@ -1,0 +1,34 @@
+@startuml
+title 基于GitHub的实验管理平台--查看成绩用例的顺序图
+actor students
+database data
+students -> login: 登录
+login ->semester:选择学期
+semester -> data :查询数据库
+data --> semester:返回该学生学期所有课程
+@enduml@startuml
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

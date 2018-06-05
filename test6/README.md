@@ -19,10 +19,7 @@
 - 系统自动计算每个学生的所有实验的平均分。
     
 ## 2. 系统总体结构
-![](./系统总体结构.png)
-
-界面设计参见：https://zwdbox.github.io/is_analysis/test6/ui/index.html
-    
+![](./total.png)
 ## 3. 用例图设计 [源码](src/main/UserCase.puml)
 ![](UserCase.png)
 
@@ -43,5 +40,4 @@
 - ### [“登录”用例](src/cases/login.md),[界面](https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/login.png)
 - ### [“注册”用例](src/cases/regist.md),[界面](https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/regist.png)
 - ### [“修改成绩”用例](src/cases/UpdateScore.md),[界面](https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/checkscore.png)
- 
- 
+  ### [“选择课程”用例](src/cases/CheckCourse.md),[界面](https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/checkcourse.png)

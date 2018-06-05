@@ -8,7 +8,7 @@ Title 注册认证流程图
 database "前端存储Cookie\nSessionStorage" as 前端存储
 actor 注册页面
 database 数据库存储
-actor login页面
+actor 注册页面
 == Regist注册页面 ==
 数据库存储->数据库存储:预存了每个用户的信息：\n用户名+hash加密的密码
 注册页面-> 数据库存储:判断当前注册用户是否合理
