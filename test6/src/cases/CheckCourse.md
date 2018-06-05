@@ -32,3 +32,4 @@
 - [TESTS](../../DataDesign.md/#TESTS)
 - [TEACHERS](../../DataDesign.md/#TEACHERS)
 - [COURSE](../../DataDesign.md/#COURSE)
+- [STUDENT_COURSE](../../DataDesign.md/#STUDENT_COURSE)

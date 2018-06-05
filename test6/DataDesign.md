@@ -88,3 +88,12 @@
         |COORSE_ID|NUMBER(6,0)|主键|否| | | 实验编号|
          |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENT的外键，代表学生|
         |TEACHER_ID|VARCHAR2(50 BYTE)|外键|否| | | 表TEACHER的外键，表示老师|
+		
+ - ## STUDENT_COURSE表（实验项目表）
+        
+     |字段|类型|主键，外键|可以为空|默认值|约束|说明|
+                |:-------:|:-------------:|:------:|:----:|:---:|:----:|:----------|
+                |ID|NUMBER(6,0)|主键|否| | | 编号|
+               |COORSE_ID|NUMBER(6,0)|外键键|否| | | COURSE表的外键|
+                 |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENT的外键，代表学生|
+                |NOTE|VARCHAR2(50 BYTE)||否| | | 注解|
