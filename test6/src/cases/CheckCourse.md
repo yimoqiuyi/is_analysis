@@ -19,7 +19,7 @@
 ## 3. 界面设计
 - 界面参照: https://github.com/yimoqiuyi/is_analysis/blob/master/test6/src/ui/checkcourse.png
 - API接口调用 
-     接口1：[CheckCourse](../mapper/CheckCourse.md)
+    - 接口1：[CheckCourse](../mapper/CheckCourse.md) 
 
 ## 4. 算法描述
     无
