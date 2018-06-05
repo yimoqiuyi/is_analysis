@@ -81,6 +81,7 @@
     |TITLE|VARCHAR2(100 BYTE)| |否| | | 实验名称|
     
     <div id="COURSE"></div>
+	
  - ## TESTS表（实验项目表）
     
       |字段|类型|主键，外键|可以为空|默认值|约束|说明|
@@ -88,6 +89,8 @@
         |COORSE_ID|NUMBER(6,0)|主键|否| | | 实验编号|
          |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENT的外键，代表学生|
         |TEACHER_ID|VARCHAR2(50 BYTE)|外键|否| | | 表TEACHER的外键，表示老师|
+		
+	<div id="STUDENT_COURSE"></div>
 		
  - ## STUDENT_COURSE表（实验项目表）
         
