@@ -82,21 +82,20 @@
     
     <div id="COURSE"></div>
 	
- - ## TESTS表（实验项目表）
-    
-      |字段|类型|主键，外键|可以为空|默认值|约束|说明|
-        |:-------:|:-------------:|:------:|:----:|:---:|:----:|:----------|
-        |COORSE_ID|NUMBER(6,0)|主键|否| | | 实验编号|
-         |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENT的外键，代表学生|
-        |TEACHER_ID|VARCHAR2(50 BYTE)|外键|否| | | 表TEACHER的外键，表示老师|
-		
-	<div id="STUDENT_COURSE"></div>
-		
- - ## STUDENT_COURSE表（实验项目表）
-        
-     |字段|类型|主键，外键|可以为空|默认值|约束|说明|
-                |:-------:|:-------------:|:------:|:----:|:---:|:----:|:----------|
-                |ID|NUMBER(6,0)|主键|否| | | 编号|
-               |COORSE_ID|NUMBER(6,0)|外键键|否| | | COURSE表的外键|
-                 |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENT的外键，代表学生|
-                |NOTE|VARCHAR2(50 BYTE)||否| | | 注解|
+ - ## COURSE表（课程表）
+
+    |字段|类型|主键，外键|可以为空|默认值|约束|说明|
+    |:-------:|:-------------:|:------:|:----:|:---:|:----:|:----------|
+    |COURSE_ID|NUMBER(6,0)|主键|否| | | 课程编号|
+    |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENT的外键,学生编号|
+     
+     <div id="STUDENT_COURSE"></div>
+      
+- ## STUDENT_COURSE表（实验项目表）
+            
+    |字段|类型|主键，外键|可以为空|默认值|约束|说明|
+    |:-------:|:-------------:|:------:|:----:|:---:|:----:|:----------|
+    |ID|NUMBER(6,0)|主键|否| | | 编号|
+    |STUDENT_ID|VARCHAR2(50 BYTE)|外键|否| | | 表STUDENTS的外键，表示学生编号|
+    |COURSE_ID|VARCHAR2(50 BYTE)|外键|否| | | 表COURSE的外键，表示课程编号|
+    |NOTE|VARCHAR2(100 BYTE)| |是| | | 注解|
